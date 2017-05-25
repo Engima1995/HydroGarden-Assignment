@@ -1,0 +1,1055 @@
+html {
+    box-sizing: border-box;
+    font-size: 1em;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+h1, h2, a {
+    font-family: 'big_noodle_titling';
+    text-decoration: none;
+}
+
+p {
+    font-family: 'MyriadPro-Light';
+    color: #676767;
+}
+
+
+
+/***** Start of Header *****/
+
+header.blend.image {
+    background-blend-mode: multiply;
+    background: rgba(143, 201, 81, 0.75);
+    background-image: url(../images/content-images/main-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    background-position: 100% 10%;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background: rgba(143, 201, 81, 0.75);
+}
+
+header #small-logo {
+    display: inline-block;
+    background-image: url(../images/logo/small-logo.png);
+    background-repeat: no-repeat;
+    width: 183px;
+    height: 67px;
+    margin-top: 31.25px;
+    margin-bottom: 31.25px;
+    margin-left: 10px;
+}
+
+header #small-logo:hover {
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+header nav {
+    float: right;
+    margin-top: 70px;
+}
+
+header .icon {
+    display: none;
+    font-size: 1.25em;
+    color: #ffffff;
+}
+
+header nav a {
+    transition: 2s;
+    font-size: 1.25em;
+    color: #ffffff;
+    margin-left: 40px;
+}
+
+header nav a:hover {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #fff;
+}
+
+header nav:last-child {
+    margin-right: 20px;
+}
+
+/***** End of Header *****/
+
+
+
+/***** Start of Main Section *****/
+
+section#main {
+    background: url(../images/content-images/main-image.jpg) center center fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+section#main .main.container {
+    width: 100%;
+    height: auto;
+    padding-top: 22.5%;
+}
+
+section#main #big-logo {
+    display: block;
+    margin: 0 auto;
+    background: url(../images/logo/big-logo.png);
+    background-repeat: no-repeat;
+    height: 205px;
+    width: 556px;
+}
+
+section#main h2 {
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-bottom: 30%;
+}
+
+section#main .arrow.container {
+    width: 100%;
+    height: auto;
+}
+
+section#main #arrow {
+    display: block;
+    margin: 0 auto;
+    background: url(../images/content-images/arrow.png);
+    background-repeat: no-repeat;
+    width: 120px;
+    height: 120px;
+    padding-bottom: 15%;
+}
+
+section#main .arrow.container:hover {
+    cursor: pointer;
+    -webkit-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    transform: scale(1.5);
+    transition: 1s;
+}
+
+/***** Emd of Main Section *****/
+
+
+
+/***** Start of About Section *****/
+
+section#about {
+    background: url(../images/content-images/saturated-image.jpg) center center fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+section#about div {
+    width: 100%;
+    height: auto;
+}
+
+section#about div h1 {
+    text-align: center;
+    margin: 0;
+    padding-top: 10%;
+}
+
+section#about div p {
+    font-size: 1.25em;
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 50px;
+    padding-bottom: 150px;
+    line-height: 200%;
+}
+
+/***** End of About Section *****/
+
+
+
+/***** Start of Product Section *****/
+
+section#product {
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 20px;
+    margin-right: 20px;
+    overflow: hidden;
+}
+
+section#product div {
+    width: 60%;
+    float: left;
+}
+
+section#product div h1 {
+    margin: 0;
+}
+
+section#product div p {
+    margin-top: 20px;
+}
+
+section#product div video {
+    width: 50%;
+    height: 300px;
+    border: 1px solid #000;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+section#product img {
+    display: inline-block;
+    float: right;
+    margin-right: 20px;
+}
+
+/***** End of Product Section *****/
+
+
+
+/***** Start of ContactUs Section *****/
+
+section#contactus {
+    width: 100%;
+    margin: 0px 20px;
+}
+
+section#contactus .contactus.container {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 10%;
+}
+
+section#contactus .contactus.container h1 {
+    text-align: center;
+    margin: 0;
+}
+
+section#contactus .contactus.container p {
+    margin-top: 20px;
+}
+
+section#contactus .contactus.container form {
+    margin-top: 30px;
+    font-size: 1.5em;
+    font-family: 'big_noodle_titling';
+}
+
+section#contactus .contactus.container form input, section#contactus .contactus.container form textarea {
+    width: 100%;
+    height: 50px;
+    padding: 5px;
+    margin-bottom: 20px;
+    background-color:  #ccf2a8;
+    border: none;
+}
+
+section#contactus .contactus.container form input:hover, section#contactus .contactus.container form textarea:hover {
+    transition: 1s;
+    background-color:  #8FCD54;
+}
+
+section#contactus .contactus.container form textarea {
+    height: 200px;
+    margin-bottom: 10%;
+}
+
+/***** End of ContactUs Section *****/
+
+
+
+/***** Start of Footer *****/
+
+footer.blend.image {
+    background: rgba(154, 231, 83, 0.75);
+    background-image: url(../images/content-images/saturated-image.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 90%;
+    width: 100%;
+    height: auto;
+    background-blend-mode: multiply;
+}
+
+footer {
+    background: rgba(154, 231, 83, 0.75);
+    background-blend-mode: multiply;
+}
+
+footer div a:first-child {
+    margin-left: 20px;
+}
+
+footer div a {
+    display: inline-block;
+    font-size: 1.25em;
+    padding: 60px 0;
+}
+
+footer div a:hover {
+    padding-bottom: 5px;
+    border-bottom: 2px solid #000;
+}
+
+footer div #line {
+    color: #ffffff;
+}
+
+/***** End of Footer *****/
+
+
+
+/***** Start of Media Queries *****/
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    
+    /***** Start of Header *****/
+
+    header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: rgba(143, 201, 81, 0.75);
+        overflow: hidden;
+    }
+
+    header #small-logo {
+        float: left;
+    }
+
+    header #small-logo:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: 1s;
+    }
+
+    header nav {
+        float: right;
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    header .icon {
+        display: block;
+        text-align: right;
+        margin-top: 40px;
+        margin-right: 20px;
+        color: #fff;
+    }
+
+    header nav a {
+        display: block;
+        text-align: center;
+        margin-left: 0px;
+        padding: 5px;
+    }
+
+    header nav:last-child {
+        margin-right: 0px;
+    }
+
+    /***** End of Header *****/
+    
+    
+    
+    /***** Start of Main Section *****/
+
+    section#main .main.container {
+        padding-top: 60%;
+    }
+
+    section#main #big-logo {
+        display: block;
+        margin: 0 auto;
+        background: url(../images/logo/small-logo.png);
+        background-repeat: no-repeat;
+        height: 67px;
+        width: 183px;
+    }
+
+    section#main h2 {
+        margin-top: 15px;
+        font-size: 1.25em;
+    }
+
+    section#main #arrow {
+        padding-bottom: 20%;
+    }
+
+    section#main .arrow.container:hover {
+        cursor: pointer;
+        -webkit-transform: scale(1.25);
+        -ms-transform: scale(1.25);
+        transform: scale(1.25);
+        transition: 1s;
+    }
+
+    /***** Emd of Main Section *****/
+
+    
+    
+    /***** Start of About Section *****/
+
+    section#about div {
+        width: 100%;
+        height: auto;
+    }
+
+    section#about div h1 {
+        text-align: center;
+        margin: 0;
+        padding-top: 20%;
+    }
+
+    section#about div p {
+        font-size: 1.25em;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 45px;
+        padding: 20px;
+        padding-bottom: 20%;
+        line-height: 200%;
+    }
+
+    /***** End of About Section *****/
+
+
+
+    /***** Start of Product Section *****/
+
+    section#product {
+        width: 100%;
+        margin-top: 60%;
+        margin-left: 0px;
+        margin-right: 0px;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    section#product div {
+        width: 100%;
+        float: none;
+    }
+
+    section#product div h1 {
+        margin: 0;
+    }
+
+    section#product div p {
+        margin-top: 20px;
+    }
+
+    section#product div video {
+        width: 100%;
+        height: 300px;
+        border: 1px solid #000;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    section#product img {
+        display: none;
+        margin: 0 auto;
+        float: none;
+        margin-right: 0px;
+    }
+
+    /***** End of Product Section *****/
+
+
+
+    /***** Start of ContactUs Section *****/
+
+    section#contactus {
+        width: 100%;
+        margin: 0px 0px;
+    }
+
+    section#contactus .contactus.container {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 60%;
+        padding: 20px;
+    }
+
+    /***** End of ContactUs Section *****/
+
+
+
+    /***** Start of Footer *****/
+
+    footer {
+        background: rgba(154, 231, 83, 0.75);
+        background-blend-mode: multiply;
+    }
+
+    footer div {
+        margin-left: 0px;
+    }
+    
+    footer div a:first-child {
+        margin-left: 20px;
+    }
+
+    footer div a {
+        display: inline-block;
+        font-size: 1.25em;
+        padding: 60px 0;
+    }
+
+    footer div a:hover {
+        padding-bottom: 5px;
+        border-bottom: 2px solid #000;
+    }
+
+    footer div #line {
+        color: #ffffff;
+    }
+
+    /***** End of Footer *****/
+    
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) {
+    
+    
+    /***** Start of Header *****/
+
+    header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: rgba(143, 201, 81, 0.75);
+        overflow: hidden;
+    }
+
+    header #small-logo {
+        float: left;
+    }
+
+    header #small-logo:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: 1s;
+    }
+
+    header nav {
+        float: right;
+        margin-top: 0px;
+        width: 100%;
+    }
+
+    header .icon {
+        display: block;
+        text-align: right;
+        margin-top: 40px;
+        margin-right: 20px;
+    }
+
+    header nav a {
+        display: none;
+        text-align: center;
+        margin-left: 0px;
+        padding: 5px;
+    }
+
+    header nav:last-child {
+        margin-right: 0px;
+    }
+
+    /***** End of Header *****/
+    
+    
+    
+    /***** Start of Main Section *****/
+
+    section#main .main.container {
+        padding-top: 35%;
+    }
+
+    section#main #big-logo {
+        display: block;
+        margin: 0 auto;
+        background: url(../images/logo/big-logo.png);
+        background-repeat: no-repeat;
+        height: 205px;
+        width: 556px;
+    }
+
+    section#main h2 {
+        margin-top: 15px;
+        font-size: 2em;
+    }
+
+    section#main #arrow {
+        padding-bottom: 20%;
+    }
+
+    section#main .arrow.container:hover {
+        cursor: pointer;
+        -webkit-transform: scale(1.25);
+        -ms-transform: scale(1.25);
+        transform: scale(1.25);
+        transition: 1s;
+    }
+
+    /***** Emd of Main Section *****/
+
+    
+    
+    /***** Start of About Section *****/
+
+    section#about div {
+        width: 100%;
+        height: auto;
+    }
+
+    section#about div h1 {
+        text-align: center;
+        margin: 0;
+        padding-top: 20%;
+    }
+
+    section#about div p {
+        font-size: 1.25em;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 45px;
+        padding: 20px;
+        padding-bottom: 20%;
+        line-height: 200%;
+    }
+
+    /***** End of About Section *****/
+
+
+
+    /***** Start of Product Section *****/
+
+    section#product {
+        width: 100%;
+        margin-top: 30%;
+        margin-left: 0px;
+        margin-right: 0px;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    section#product div {
+        width: 100%;
+        float: none;
+    }
+
+    section#product div h1 {
+        margin: 0;
+    }
+
+    section#product div p {
+        margin-top: 20px;
+    }
+
+    section#product div video {
+        width: 100%;
+        height: 300px;
+        border: 1px solid #000;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    section#product img {
+        display: none;
+        margin: 0 auto;
+        float: none;
+        margin-right: 0px;
+    }
+
+    /***** End of Product Section *****/
+
+
+
+    /***** Start of ContactUs Section *****/
+
+    section#contactus {
+        width: 100%;
+        margin: 0px 0px;
+    }
+
+    section#contactus .contactus.container {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30%;
+        padding: 20px;
+    }
+
+    /***** End of ContactUs Section *****/
+
+
+
+    /***** Start of Footer *****/
+
+    footer {
+        background: rgba(154, 231, 83, 0.75);
+        background-blend-mode: multiply;
+    }
+
+    footer div {
+        margin-left: 0px;
+    }
+    
+    footer div a:first-child {
+        margin-left: 20px;
+    }
+
+    footer div a {
+        display: inline-block;
+        font-size: 1.25em;
+        padding: 60px 0;
+    }
+
+    footer div a:hover {
+        padding-bottom: 5px;
+        border-bottom: 2px solid #000;
+    }
+
+    footer div #line {
+        color: #ffffff;
+    }
+
+    /***** End of Footer *****/
+    
+}
+
+@media only screen and (min-device-width: 700px) and (max-device-width: 1024px) {
+    
+    /***** Start of Product Section *****/
+
+    section#product {
+        width: 100%;
+        margin-top: 30%;
+        margin-left: 0px;
+        margin-right: 0px;
+        overflow: hidden;
+        padding: 20px;
+    }
+
+    section#product div {
+        width: 100%;
+        float: none;
+    }
+
+    section#product div h1 {
+        margin: 0;
+    }
+
+    section#product div p {
+        margin-top: 20px;
+    }
+
+    section#product div video {
+        width: 100%;
+        height: 300px;
+        border: 1px solid #000;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    section#product img {
+        display: none;
+        margin: 0 auto;
+        float: none;
+        margin-right: 0px;
+    }
+
+    /***** End of Product Section *****/
+    
+    
+    
+    /***** Start of ContactUs Section *****/
+
+    section#contactus {
+        width: 100%;
+        margin: 0px 0px;
+    }
+
+    section#contactus .contactus.container {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 30%;
+        padding: 20px;
+    }
+
+    /***** End of ContactUs Section *****/
+    
+    
+    
+    /***** Start of Footer *****/
+
+    footer {
+        background: rgba(154, 231, 83, 0.75);
+        background-blend-mode: multiply;
+    }
+
+    footer div {
+        margin-left: 0px;
+    }
+    
+    footer div a:first-child {
+        margin-left: 20px;
+    }
+
+    footer div a {
+        display: inline-block;
+        font-size: 1.25em;
+        padding: 60px 0;
+    }
+
+    footer div a:hover {
+        padding-bottom: 5px;
+        border-bottom: 2px solid #000;
+    }
+
+    footer div #line {
+        color: #ffffff;
+    }
+
+    /***** End of Footer *****/
+    
+}
+
+@media screen and (min-device-width: 1200px) and (max-device-width: 1600px) { 
+    
+    /***** Start of Header *****/
+
+    header {
+        position: fixed;
+        top: 0;
+        width: 100%;
+        background: rgba(143, 201, 81, 0.75);
+    }
+
+    header #small-logo {
+        display: inline-block;
+        background-image: url(../images/logo/small-logo.png);
+        background-repeat: no-repeat;
+        width: 183px;
+        height: 67px;
+        margin-top: 31.25px;
+        margin-bottom: 31.25px;
+        margin-left: 10px;
+    }
+
+    header #small-logo:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        transition: 1s;
+    }
+
+    header nav {
+        float: right;
+        margin-top: 70px;
+    }
+
+    header .icon {
+        display: none;
+        font-size: 1.25em;
+        color: #ffffff;
+    }
+
+    header nav a {
+        font-size: 1.25em;
+        color: #ffffff;
+        margin-left: 40px;
+    }
+
+    header nav a:hover {
+        padding-bottom: 5px;
+        border-bottom: 2px solid #fff;
+    }
+
+    header nav:last-child {
+        margin-right: 20px;
+    }
+
+    /***** End of Header *****/
+    
+    
+    
+    /***** Start of Main Section *****/
+
+    section#main .main.container {
+        padding-top: 25%;
+    }
+
+    section#main #big-logo {
+        display: block;
+        margin: 0 auto;
+        background: url(../images/logo/big-logo.png);
+        background-repeat: no-repeat;
+        height: 205px;
+        width: 556px;
+    }
+
+    section#main h2 {
+        margin-top: 15px;
+        margin-bottom: 40%;
+        font-size: 2em;
+    }
+
+    section#main #arrow {
+        padding-bottom: 20%;
+    }
+
+    section#main .arrow.container:hover {
+        cursor: pointer;
+        -webkit-transform: scale(1.5);
+        -ms-transform: scale(1.5);
+        transform: scale(1.5);
+        transition: 1s;
+    }
+
+    /***** Emd of Main Section *****/
+
+    
+    
+    /***** Start of About Section *****/
+
+    section#about div {
+        width: 100%;
+        height: auto;
+    }
+
+    section#about div h1 {
+        text-align: center;
+        margin: 0;
+        padding-top: 20%;
+    }
+
+    section#about div p {
+        font-size: 1.25em;
+        margin: 0 auto;
+        width: 100%;
+        margin-top: 45px;
+        padding: 20px;
+        padding-bottom: 20%;
+        line-height: 200%;
+    }
+
+    /***** End of About Section *****/
+
+
+
+    /***** Start of Product Section *****/
+
+    section#product {
+        width: 100%;
+        margin-top: 20%;
+        margin-left: 20px;
+        margin-right: 20px;
+        overflow: hidden;
+    }
+
+    section#product div {
+        width: 60%;
+        float: left;
+    }
+
+    section#product div h1 {
+        margin: 0;
+    }
+
+    section#product div p {
+        margin-top: 20px;
+    }
+
+    section#product div video {
+        width: 80%;
+        height: 300px;
+        border: 1px solid #000;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+    section#product img {
+        display: block;
+        float: right;
+        margin-right: 0px;
+    }
+
+
+    /***** End of Product Section *****/
+
+
+
+    /***** Start of ContactUs Section *****/
+
+    section#contactus {
+        width: 100%;
+        margin: 0px 0px;
+    }
+
+    section#contactus .contactus.container {
+        width: 70%;
+        margin: 0 auto;
+        margin-top: 20%;
+        padding: 20px;
+    }
+
+    /***** End of ContactUs Section *****/
+
+
+
+    /***** Start of Footer *****/
+
+    footer {
+        background: rgba(154, 231, 83, 0.75);
+        background-blend-mode: multiply;
+    }
+
+    footer div {
+        margin-left: 0px;
+    }
+    
+    footer div a:first-child {
+        margin-left: 20px;
+    }
+
+    footer div a {
+        display: inline-block;
+        font-size: 1.25em;
+        padding: 60px 0;
+    }
+
+    footer div a:hover {
+        padding-bottom: 5px;
+        border-bottom: 2px solid #000;
+    }
+
+    footer div #line {
+        color: #ffffff;
+    }
+
+    /***** End of Footer *****/
+    
+}
+

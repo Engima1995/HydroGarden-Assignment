@@ -1,0 +1,23 @@
+Header Bar: Transparent (Multiply), #8fc951
+
+Header Bar - Nav Tags: 16.99px Font Size, BigNoodleTitling Regular Font
+
+Main Section: 33.68px Font Size, BigNoodleTitling Regular Font
+
+About Us Section: 52.13px About Us Title Font Size, BigNoodleTitling Regular Font
+		  17px Text Font Size, MyriadPro Regular Font
+
+Product Section: 50.9px Title Font Size, BigNoodleTitling Regular Font
+		 17px Text Font Size, MyriadPro Regular Font
+
+Contact Section: 50.9px Title Font Size, BigNoodleTitling Regular Font
+		 17px Text Font Size, MyriadPro Regular Font
+		 21.24px Form Fields, BigNoodleTitling Regular Font
+		 Form Fields background color #ccf2a8
+
+Footer Bar: Transparent (Multiply), #9ae753
+	    18.93 Text Font Size, BigNoodleTitling Regular Font
+
+Header and Main Section Colors: #ffffff
+Color of Headers: #000000
+Color of Text: #676767
